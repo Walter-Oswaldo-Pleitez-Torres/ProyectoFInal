@@ -1,0 +1,14 @@
+-----------------------------------
+---------- Orden No: 1 -----------
+Pedido No: 1 - Producto No: 1
+Nombre Producto: soda
+Cantidad Producto: 2
+Precio Unitario Producto: 0.5
+-----------------------------------
+-----------------------------------
+---------- Orden No: 1 -----------
+Pedido No: 2 - Producto No: 2
+Nombre Producto: cafe
+Cantidad Producto: 2
+Precio Unitario Producto: 0.35
+-----------------------------------
