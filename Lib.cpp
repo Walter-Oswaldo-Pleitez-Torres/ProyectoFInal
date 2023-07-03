@@ -1,7 +1,6 @@
-#define Libreria_h
-#include <fstream>
 #include <iostream>
-#include <string>
+#include "Lib.hpp"
+#include <fstream>
 
 using namespace std;
 
@@ -10,19 +9,6 @@ struct Inventario
     string Productos[8] = {"SANDWICH", "PUPUSAS", "CROISANDWICH", "PAPAS", "CAFE", "CHOCOLATE", "SODA", "LICUADO"};
     float Precios[8] = {0.75, 0.35, 0.50, 1.00, 0.35, 0.40, 0.50, 1.25};
 };
-
-void CrearFichero(string Nombre, int Cantidad, float Precio, int ContProducto, int ContPedido, int ContOrden, string Fecha);
-void LeerFichero();
-void CrearMasVendido(int contsandwich, int contpupusas, int contcroi, int contpapas, int contcafe, int contchoco, int contsoda, int contlicuado, string Fecha);
-void InicioSesion(string Usuario, string Clave);
-void InicioSesionAdmin(string Usuario, string Clave);
-void MenuDesplegable();
-void Ordenar();
-int BuscadorPosicion(string NombreItem, string PosicionProductos[]);
-float BuscadorPrecio(int PosicionPrecio, float BuscarPrecio[]);
-float CalculoPagoIndividuo(float PrecioItem, int CantItem);
-float SumaPagosGrales(float PagoGral[], int CantProductos);
-float SumaTotales(float Totales[], int CantClientes);
 
 void CrearFichero(string Nombre, int Cantidad, float Precio, int ContProducto, int ContPedido, int ContOrden, string Fecha)
 {

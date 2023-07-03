@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 #include <fstream>
-#include "Libreria.h"
+#include "Lib.hpp"
 
 // RAMA PARA FILES
 using namespace std;
